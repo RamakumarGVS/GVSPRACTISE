@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.2 (Python 3.6.4 on win32)" generated="20180321 11:23:50.783">
+<suite id="s1" name="Test2" source="C:\Users\rvenkatasampath\PycharmProjects\Project1\Test2.robot">
+<test id="s1-t1" name="Test title1">
+<kw name="Convert To Binary" library="BuiltIn">
+<doc>Converts the given item to a binary string.</doc>
+<arguments>
+<arg>10</arg>
+</arguments>
+<assign>
+<var>${X}</var>
+</assign>
+<msg timestamp="20180321 11:23:50.836" level="INFO">${X} = 1010</msg>
+<status status="PASS" starttime="20180321 11:23:50.836" endtime="20180321 11:23:50.836"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${X}</arg>
+</arguments>
+<msg timestamp="20180321 11:23:50.836" level="INFO">1010</msg>
+<status status="PASS" starttime="20180321 11:23:50.836" endtime="20180321 11:23:50.836"></status>
+</kw>
+<doc>Binary Convertion</doc>
+<status status="PASS" starttime="20180321 11:23:50.836" endtime="20180321 11:23:50.836" critical="yes"></status>
+</test>
+<test id="s1-t2" name="Test title2">
+<kw name="Convert To Octal" library="BuiltIn">
+<doc>Converts the given item to an octal string.</doc>
+<arguments>
+<arg>10</arg>
+</arguments>
+<assign>
+<var>${X}</var>
+</assign>
+<msg timestamp="20180321 11:23:50.836" level="INFO">${X} = 12</msg>
+<status status="PASS" starttime="20180321 11:23:50.836" endtime="20180321 11:23:50.836"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${X}</arg>
+</arguments>
+<msg timestamp="20180321 11:23:50.836" level="INFO">12</msg>
+<status status="PASS" starttime="20180321 11:23:50.836" endtime="20180321 11:23:50.836"></status>
+</kw>
+<doc>Octal Convertion</doc>
+<status status="PASS" starttime="20180321 11:23:50.836" endtime="20180321 11:23:50.836" critical="yes"></status>
+</test>
+<doc>Test Convertion</doc>
+<status status="PASS" starttime="20180321 11:23:50.783" endtime="20180321 11:23:50.836"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0">Critical Tests</stat>
+<stat pass="2" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" id="s1" name="Test2">Test2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
