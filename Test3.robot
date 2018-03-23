@@ -10,9 +10,10 @@ Oening Browser
 #  Open Browser  https://qa6app.3gqa.satmetrix.com/app/core/main/login/login.htm?_rdr=as  browser=GC
 #  Open Browser  http://google.com desired_capabilities=firefox_binary:""
 #  Title Should Be  google
+#  Title Should Be testing
+
     ${URL}=  Get Location
     Should Be Equal As Strings  ${URL}  https://www.google.co.in/?gfe_rd=cr&dcr=0&ei=2xCyWoXmFMucX564p4gD
-
 
 *** Keywords ***
 Provided precondition
